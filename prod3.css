@@ -1,0 +1,114 @@
+header{
+  background: linear-gradient(45deg, #000000,#696969);
+  border-bottom: 1px solid;
+  position: relative;
+  padding: 1px;
+  width: 100%;
+  height: 100%;
+}
+Header ul{
+  margin: 30px auto;
+  padding: 0 10px;
+  text-align: right;
+}
+
+Header li{
+  display: inline-block;
+  padding: 10px;
+  font-family: 'Lato';
+  color: white;
+  border-radius: 3px;
+}
+
+header li:hover {
+  background-color: #202020;
+}
+
+
+#nameCompany {
+    font-family: 'Alatsi';
+    position: absolute;
+    text-align: left;
+    color: white;
+    text-outline: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+	  text-shadow: 2px 2px 5px gold;
+}
+.title{
+	font-family: Arial;
+	color:blue;
+
+}
+.image{
+	width:350px;
+	height:500px;
+	position: absolute;
+	top: 140px;
+	right:800px;
+}
+.list{
+	font-family: Arial;
+	position: absolute;
+	top: 225px;
+	right:440px;
+}
+.productTitle{
+	font-family: Arial;
+	position: absolute;
+	top: 175px;
+	right:450px;
+}
+.buyBTN{
+	position: absolute;
+	top: 425px;
+	right:400px;
+}
+.spesification{
+	position: absolute;
+	font-family:'lato';
+	text-align:justify;
+	top: 450px;
+	right:200px;
+	left:550px
+}
+body{
+  background: url("gold_texture446.jpg");
+  margin: 0;
+  padding: 0;
+}
+#article-box{
+  background-color: white;
+  margin: 30px;
+  padding: 275px;
+  border-radius: 10px;
+}
+article{
+  border-right: 1px solid white;
+  display: inline-block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 31.34%
+}
+#address p{
+  color:white;
+}
+#footprint h5{
+  color:white;
+  border-top: 1px solid white;
+  font-family: 'Lato';
+  padding: 10px;
+  text-align:center;
+  margin: 10px auto
+}
+
+footer{
+  background: linear-gradient(45deg, #000000,#696969);
+  border-top: 1px solid;
+  position: relative;
+  top:50px;
+  padding: 1px;
+  width: 100%;
+  height: 100%;
+}

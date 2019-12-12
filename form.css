@@ -1,0 +1,129 @@
+*{
+    font-family: 'Lato';
+}
+
+header {
+    background: linear-gradient(45deg, #000000, #696969);
+    border-bottom: 1px solid;
+    position: relative;
+    padding: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+#nameCompany{
+    font-family: 'Alatsi';
+    font-size: 25px;
+    top: 15px;
+    left: 15px;
+    display: inline-block;
+    position: Absolute;
+    text-align: left;
+    color: white;
+    padding: 5px;
+    font-weight: Bold;
+    text-shadow: 2px 2px 5px gold;
+  }
+
+header ul {
+    margin: 30px auto;
+    padding: 0 10px;
+    text-align: right;
+}
+
+header li {
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Lato';
+    color: white;
+    border-radius: 3px;
+}
+
+header li:hover {
+    background-color: #202020;
+}
+
+.title_c {
+    background-color: white;
+    padding: 20px 0 20px 10px;
+    height: 100%;
+    border-radius: 5px;
+    margin: 10px 10px;
+    left: 50px;
+    right: 50px;
+}
+
+
+
+form {
+    background-color: white;
+    padding: 20px 0 20px 10px;
+    width: 97.5%;
+    height: 100%;
+    border-radius: 5px;
+    margin: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.product_summary {
+    padding: 20px 0 20px 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 47.3%;
+    position: absolute;
+    left: 650px;
+    top: 182px;
+    margin: 10px 10px;
+    opacity: 90%;
+}
+
+.country_c,
+.state_c,
+.city_c,
+.district_c,
+.street_address_c,
+.postcode_c,
+.courier_notes_c,
+.checkbox_c {
+    margin-top: 10px;
+}
+
+body{
+    background: url("gold_texture446.jpg");
+    margin: 0;
+    padding: 0;
+  }
+
+#footprint h5 {
+    color: white;
+    border-top: 1px solid white;
+    font-family: 'Lato';
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto
+}
+
+#address p {
+    color: white;
+}
+
+footer {
+    background: linear-gradient(45deg, #000000, #696969);
+    border-top: 1px solid;
+    position: relative;
+    padding: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+article{
+    border-right: 1px solid white;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 31.34%
+  }
+
+.quantity, .price{
+    opacity: 70%;
+}

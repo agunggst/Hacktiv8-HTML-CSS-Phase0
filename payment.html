@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Payment | GramoStore.com</title>
+    <link rel="stylesheet" href="payment.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="nameCompany">Gramostore.com</h1>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="company-profile.html">
+                    <li>Company Profile</li><a>
+                        <a href="#foot">
+                            <li>Contact</li>
+                        </a>
+            </ul>
+        </nav>
+    </header>
+    <section class="payment">
+        <h2>Payment</h2>
+        <form action="Confirm.html">
+            <div>
+                <label for="card_name">Card Holder's Name:</label>
+                <input type="text" name="card_name" id="card_name" size="54" required>
+            </div>
+            <br>
+            <div>
+                <label for="card_number0">Card Number:</label>
+                <input type="text" name="card_number0" id="card_number0" size="12" placeholder="xxxx" required>
+                <input type="text" name="card_number1" id="card_number1" size="12" placeholder="xxxx" required>
+                <input type="text" name="card_number2" id="card_number2" size="12" placeholder="xxxx" required>
+                <input type="text" name="card_number3" id="card_number3" size="12" placeholder="xxxx" required>
+            </div>
+            <br>
+            <div>
+                <label for="card_exp">Card Expiry Date:</label>
+                <select name="card_exp" id="card_exp">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+                </select>
+                <select name="card_exp_year" id="card_exp_year">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="card_cvv">Card CVV:</label>
+                <input type="text" name="card_cvv" id="card_cvv" size="15" required>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+    <footer id="foot">
+            <div id="address">
+                <article>
+                    <p><Strong>Call Us !</strong><br>
+                        1-200-896-8766 <br>
+                        Mon-Fri, 7am-6pm<br>
+                        Sat-Sun, 9am-3pm<br>
+                    </p>
+                </article>
+                <article>
+                    <p><Strong>Email Us !</strong><br>
+                        gramophone@email.com <br>
+                        We will respond as<br>
+                        quickly as we can.<br>
+                    </p>
+                </article>
+                <article>
+                    <p><Strong>Visit Our Store</strong><br>
+                        10534 York Road, Suite 200 <br>
+                        WHunt Valley, MD 21030<br>
+                        410-683-0123<br>
+                    </p>
+                </article>
+            </div>
+            <div id="footprint">
+                <h5>2019 Gramophone, Inc All Right Reserved</h5>
+            </div>
+        </footer>
+
+</body>
+
+</html>

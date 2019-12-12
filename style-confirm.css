@@ -1,0 +1,95 @@
+header{
+  background: linear-gradient(45deg, #000000,#696969);
+  border-bottom: 1px solid;
+  position: relative;
+  padding: 1px;
+  width: 100%;
+  height: 100%;
+}
+
+#nameCompany{
+  font-family: 'Alatsi';
+  font-size: 25px;
+  top: 15px;
+  left: 15px;
+  display: inline-block;
+  position: Absolute;
+  text-align: left;
+  color: white;
+  padding: 5px;
+  font-weight: Bold;
+  text-shadow: 2px 2px 5px gold;
+}
+
+body{
+  background: url("gold_texture446.jpg");
+  margin: 0;
+  padding: 0;
+}
+
+#article-box{
+  background-color: white;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+ul{
+  margin: 30px auto;
+  padding: 0 10px;
+  text-align: right;
+}
+
+li{
+  display: inline-block;
+  padding: 10px;
+  font-family: 'Lato';
+  color: white;
+  border-radius: 3px;
+}
+
+header li:hover {
+  background-color: #202020;
+}
+
+article{
+  border-right: 1px solid white;
+  display: inline-block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 31.34%
+}
+
+p{
+  font-family: 'Lato';
+  font-weight: 300;
+}
+
+#address p{
+  color:white;
+}
+
+h1{
+  font-family: 'Lato';
+  font-weight: 300;
+  text-align: center;
+  font-height: 1.8 em;
+}
+
+#footprint h5{
+  color:white;
+  border-top: 1px solid white;
+  font-family: 'Lato';
+  padding: 10px;
+  text-align:center;
+  margin: 10px auto
+}
+
+footer{
+  background: linear-gradient(45deg, #000000,#696969);
+  border-top: 1px solid;
+  position: relative;
+  padding: 1px;
+  width: 100%;
+  height: 100%;
+}
